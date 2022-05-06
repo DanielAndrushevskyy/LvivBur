@@ -36,6 +36,10 @@ body.dark .st1{
    fill: hsl(var(--hue-1), 18%, 29%);
 }
 
+body.dark .about-card:hover .st2{
+   fill: var(--main-color-1);
+}
+
 body.dark .shape.square{
    opacity: 0.07;
 }
@@ -444,7 +448,7 @@ body.open .hamburger .bar:last-child{
    min-height: calc(100% + 120px);
    background-color: var(--bg-color-2);
    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
-   /* background-image: linear-gradient(124deg, var(--bg-color-3) 53%, var(--bg-color-3) 53%); */
+   background-image: linear-gradient(124deg, var(--main-color-1) 63%, var(--main-color-2) 53%);
    /* background-image: url(./assets/bur2.png); */
    margin-top: -120px;
    border-radius: 0 0 80px 80px;
@@ -452,11 +456,11 @@ body.open .hamburger .bar:last-child{
 
 .showcase-image .person{
    position: absolute;
-   width: 90%;
+   width: 88%;
    bottom: 0;
    left: 50%;
    transform: translateX(-50%);
-   margin-bottom: 15px;
+   margin-bottom: 20px;
 }
 
 .showcase-area .circle{
@@ -626,7 +630,7 @@ body.open .hamburger .bar:last-child{
 }
 
 .about-card:hover .st2{
-   fill: var(--main-color-1);
+   fill: var(--bg-color-1);
 }
 
 .about-grid::before{
@@ -2072,6 +2076,7 @@ textarea.form-input{
    .icon{
       width: 70px;
    }
+
    .about-card h3{
       font-size: .8rem;
       margin-top: .5rem;
