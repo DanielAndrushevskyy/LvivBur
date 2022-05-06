@@ -448,7 +448,7 @@ body.open .hamburger .bar:last-child{
    min-height: calc(100% + 120px);
    background-color: var(--bg-color-2);
    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
-   background-image: linear-gradient(124deg, var(--main-color-1) 63%, var(--main-color-2) 53%);
+   /* background-image: linear-gradient(124deg, var(--main-color-1) 63%, var(--main-color-2) 53%); */
    /* background-image: url(./assets/bur2.png); */
    margin-top: -120px;
    border-radius: 0 0 80px 80px;
