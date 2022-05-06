@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <!-------------- Testimonial scroll swiperjs -------------->
+   <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /> -->
+   <!-------------- Scroll Reveal Libray -------------->
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <!-------------- CSS Files -------------->
+   <link rel="stylesheet" href="not-found.css">
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body>
+   <div id="container">
+      <div class="content">
+         <h2>404</h2>
+         <h4>Уппс! Сторінку не знайдено</h4>
+         <p>Сторінка, яку ви шукали, не існує. Можливо, ви неправильно ввели адресу або сторінка перемістилась.</p>
+         <a href="./index.php">Повернутись на головну</a>
+      </div>
+   </div>
+
+   <script>
+      var container = document.getElementById('container');
+      window.onmousemove = function(e){
+         var x = - e.clientX/5,
+            y = - e.clientY/5;
+         container.style.backgroundPositionX = x + 'px';
+         container.style.backgroundPositionY = y + 'px';
+      }
+   </script>
+</body>
+</html>
