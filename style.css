@@ -593,8 +593,9 @@ body.open .hamburger .bar:last-child{
 }
 
 .icon{
-   width: 60px;
+   width: 90px;
 }
+
 .st0{
    fill: var(--bg-color-3);
    transition: 0.3s fill;
@@ -606,7 +607,8 @@ body.open .hamburger .bar:last-child{
 }
 
 .st2{
-   fill: var(--heading-color);
+   stroke-width: 2.5px;
+   stroke: var(--heading-color);
    transition: 0.3s;
 }
 
@@ -2068,7 +2070,7 @@ textarea.form-input{
    }
 
    .icon{
-      width: 50px;
+      width: 70px;
    }
    .about-card h3{
       font-size: .8rem;
