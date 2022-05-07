@@ -722,8 +722,9 @@ body.open .hamburger .bar:last-child{
 
 .container .card-be:hover .face.face1{
    transform: translateY(-100%) rotateX(90deg);
-   background: var(--main-color-2);
+   background: var(--main-color-1);
    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+   opacity: 0;
 }
 
 .container .card-be:hover .face.face1 .content{
