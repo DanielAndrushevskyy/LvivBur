@@ -726,6 +726,11 @@ body.open .hamburger .bar:last-child{
    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
 }
 
+.container .card-be:hover .face.face1 .content{
+   opacity: 0;
+   transition: 0.2s;
+}
+
 .container .card-be  .face.face2{
    background-color: var(--bg-color-2);
    display: flex;
